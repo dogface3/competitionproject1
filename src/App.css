@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.kortti {
+  display: flex;
+  justify-content: center;
+  
+}

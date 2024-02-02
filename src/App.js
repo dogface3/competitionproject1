@@ -1,23 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import Greetings from './components/iteration2.js'
+import BoxColor from './components/iteration4.js';
+import CreditCard from './components/iteration5.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <h2>iteration2</h2>
+      <p>
+        <Greetings lang="de">Ludwig</Greetings>
+        <Greetings lang="fr">François</Greetings>
+      </p>
+      <h3>iteration4</h3>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <div className='box'>
+            <BoxColor r={255} g={0} b={0} />
+            <BoxColor r={128} g={255} b={0} />
+          </div>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h5>iteration5</h5>
+      <p>
+        <div className='kortti'>
+          <CreditCard
+            type="Visa"
+            number="0123456789018845"
+            expirationMonth={3}
+            expirationYear={2021}
+            bank="BNP"
+            owner="Maxence Bouret"
+            bgColor="#11aa99"
+            color="white" 
+          />
+        </div>
+      </p>
     </div>
   );
 }
