@@ -1,18 +1,14 @@
 .App {
-  text-align: center;
-<<<<<<< HEAD
-}
+  text-align: center;}
 
-=======
- 
-}
+
 .centerbox{
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 50px;
 }
->>>>>>> main
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -47,7 +43,7 @@
     transform: rotate(360deg);
   }
 }
-<<<<<<< HEAD
+
 
 .box {
   display: flex;
@@ -57,7 +53,5 @@
 .kortti {
   display: flex;
   justify-content: center;
-  
+  gap: 200px;
 }
-=======
->>>>>>> main
