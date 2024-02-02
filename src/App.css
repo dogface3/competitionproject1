@@ -1,7 +1,18 @@
 .App {
   text-align: center;
+<<<<<<< HEAD
 }
 
+=======
+ 
+}
+.centerbox{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+>>>>>>> main
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,6 +47,7 @@
     transform: rotate(360deg);
   }
 }
+<<<<<<< HEAD
 
 .box {
   display: flex;
@@ -47,3 +59,5 @@
   justify-content: center;
   
 }
+=======
+>>>>>>> main

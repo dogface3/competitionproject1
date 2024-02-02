@@ -15,8 +15,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+
     "eject": "react-scripts eject",
     "dev": "nodemon server"
+
+
+
   },
   "eslintConfig": {
     "extends": [
@@ -35,6 +39,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+
   },
   "devDependencies": {
     "nodemon": "^3.0.3"
@@ -44,4 +49,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
-}
+
+  }
